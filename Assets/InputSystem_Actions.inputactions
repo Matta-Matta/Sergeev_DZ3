@@ -45,16 +45,6 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
-                },
-                {
-                    "name": "RollDice",
-                    "type": "Button",
-                    "id": "c491b774-21a2-438e-9455-63d7b303c788",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true,
-                    "priority": 0
                 }
             ],
             "bindings": [
@@ -264,17 +254,6 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Previous",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "eb27f14b-2707-4f2a-901f-117f8954f281",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "RollDice",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -801,6 +780,35 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Gameplay",
+            "id": "e1f38dd5-8541-4386-a9ac-1c626a39dca6",
+            "actions": [
+                {
+                    "name": "Throw",
+                    "type": "Button",
+                    "id": "16c84ffc-f1a3-4982-a827-86542a7102cc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "298a0602-7f7c-4cff-a5e7-5fd7fdd5815f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
